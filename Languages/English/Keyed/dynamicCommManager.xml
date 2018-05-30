@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<DynamicCommManagerStandardNotificationTitle>Incoming message</DynamicCommManagerStandardNotificationTitle>
+	<DynamicCommManagerStandardNotificationText>Your comms console shows an incoming message. What could it be?</DynamicCommManagerStandardNotificationText>
+	<AnswerCommunication>Answer incoming message</AnswerCommunication>
+</LanguageData>

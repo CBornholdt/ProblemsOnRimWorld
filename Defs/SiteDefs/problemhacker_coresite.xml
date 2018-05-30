@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SiteCoreDef>
+    <defName>ProblemHacker_HackingSite</defName>
+    <label>hacking site</label>
+		<description>Your search has revealed the likely source of the hacking signal. As to what awaits ... </description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Prisoner</expandingIconTexture>
+    <forceExitAndRemoveMapCountdownDurationDays>5</forceExitAndRemoveMapCountdownDurationDays>
+    <requiresFaction>true</requiresFaction>
+  </SiteCoreDef>
+
+  <GenStepDef>
+    <defName>ProblemHacker_RemoteHacker</defName>
+    <linkWithSite>ProblemHacker_HackingSite</linkWithSite>
+    <order>460</order>
+    <genStep Class="ProblemHacker.GenStep_RemoteHacker">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef>
+  	<defName>ProblemHacker_Power</defName>
+  	<linkWithSite>ProblemHacker_HackingSite</linkWithSite>
+  	<order>461</order>
+  	<genStep Class="GenStep_Power"/>
+  </GenStepDef>
+
+</Defs>

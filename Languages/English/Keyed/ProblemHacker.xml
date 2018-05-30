@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ProblemHackerWarningLetterText>A word of warning garbled over the radio, apparently someone has extorted {0} after successfully hacking their electronics!</ProblemHackerWarningLetterText>
+  <ProblemHackerWarningLetterLabel>Garbled radio warning</ProblemHackerWarningLetterLabel>
+  <ProblemHackerExtortionLetterText>Pay {0} a total of 100 silver or you will regret it.\n\n    -{1}, Hacker Extraordinaire</ProblemHackerExtortionLetterText>
+  <ProblemHackerExtortionLetterLabel>EXTORTION</ProblemHackerExtortionLetterLabel>
+  <ProblemHackerHackedLetterText>Several of your turrets have been hacked and are now firing on anything they can. With luck, the hacking signal can only be sent so long ...</ProblemHackerHackedLetterText>
+  <ProblemHackerHackedLetterTitle>HACKED</ProblemHackerHackedLetterTitle>
+  <ProblemHackerHackingEndedLetterText>Just as suddenly as the chaos erupted, the hacked turrets are now back under your control.</ProblemHackerHackingEndedLetterText>
+  <ProblemHackerHackingEndedLetterLabel>Hacking ended</ProblemHackerHackingEndedLetterLabel>
+  <ProblemHackerTracedLetterText>With the quick work and dedication of {0}, the location of the hacker has been found.</ProblemHackerTracedLetterText>
+  <ProblemHackerTracedLetterLabel>Traced hacker</ProblemHackerTracedLetterLabel>
+  <ProblemHackerCountermeasuresActiveLetterText>With a little hard work and a lot of time, countermeasures have now been implemented against the hacking</ProblemHackerCountermeasuresActiveLetterText>
+  <ProblemHackerCountermeasuresActiveLetterLabel>Countermeasures Active</ProblemHackerCountermeasuresActiveLetterLabel>
+
+
+  <ProblemHackerDialogOptionText_ContactAlly_HackerNotFound>Ask for information about their hacking incident</ProblemHackerDialogOptionText_ContactAlly_HackerNotFound>
+  <ProblemHackerDialogOptionText_ResponseFromContactedAlly_HackerNotFound>First response</ProblemHackerDialogOptionText_ResponseFromContactedAlly_HackerNotFound>
+
+  <ProblemHackerDialogOptionText_ContactAlly_HackerFound>Inform them about the hacker's location</ProblemHackerDialogOptionText_ContactAlly_HackerFound>
+  <ProblemHackerDialogOptionText_ResponseFromContactedAlly_HackerFound>First response</ProblemHackerDialogOptionText_ResponseFromContactedAlly_HackerFound>
+
+  <Hacker>Hacker</Hacker>
+  <ProblemHackerExtortionDialogTitle>Extortion demanded!</ProblemHackerExtortionDialogTitle>
+
+  <ProblemHackerExtortionDemands>Extortion demanded!</ProblemHackerExtortionDemands>
+  <ProblemHackerExtortionDemandsText>Unless you wish to end up like {0}, cough up {2} silver. Remember, it'll do no good to you if you're dead ...\n\n{1} -Hacker Extraordinaire</ProblemHackerExtortionDemandsText>
+  <ProblemHackerExtortionDemandsTextNoAllies>Unless you wish to end up like all the suckers around here, cough up {1} silver. Remember, it'll do no good to you if you're dead ...\n\n{0} -Hacker Extraordinaire</ProblemHackerExtortionDemandsTextNoAllies>
+  <ProblemHackerDialogOptionText_ExtortionRootNode_AcceptExtortion>Accept extortion and pay</ProblemHackerDialogOptionText_ExtortionRootNode_AcceptExtortion>
+  <ProblemHackerDialogOptionText_ExtortionRootNode_RejectExtortion>Reject extortion</ProblemHackerDialogOptionText_ExtortionRootNode_RejectExtortion>
+  <ProblemHackerDialogOptionText_ExtortionRootNode_Threaten>"Go play with your turrets and leave the adults alone {0}, unless you want to get hurt."</ProblemHackerDialogOptionText_ExtortionRootNode_Threaten>
+  <PH_Extortion_Insult_Title>INSULT</PH_Extortion_Insult_Title>
+  <PH_Extortion_Insult_Text>You little worm! Taste this!</PH_Extortion_Insult_Text>
+  <ProblemHackerDialogOptionText_ExtortionRootNode_Ignore>Ignore it</ProblemHackerDialogOptionText_ExtortionRootNode_Ignore>
+
+  <ProblemHackerExtortionAccepted>Extortion Accepted</ProblemHackerExtortionAccepted>
+  <ProblemHackerExtortionAcceptedText></ProblemHackerExtortionAcceptedText>
+
+
+  <ProblemHackerContactHackedAllyBase>Contact {0} about the hacking</ProblemHackerContactHackedAllyBase>
+  <ProblemHackerContactHackedAllyBaseTitle>Contacting {0}</ProblemHackerContactHackedAllyBaseTitle>
+  <ProblemHackerHackedAllyBaseRootNodeTitle>Contacting {0}</ProblemHackerHackedAllyBaseRootNodeTitle>
+  <ProblemHackerHackedAllyBaseRootNodeText>Base text</ProblemHackerHackedAllyBaseRootNodeText>
+  <ProblemHackerHackedAllyBaseOption_OfferInformation>Offer information about the hacker</ProblemHackerHackedAllyBaseOption_OfferInformation>
+  <ProblemHackerHackedAllyBase_OfferedInformationNodeTitle>Offer information title</ProblemHackerHackedAllyBase_OfferedInformationNodeTitle>
+  <ProblemHackerHackedAllyBase_OfferedInformationNodeText>Offer information text</ProblemHackerHackedAllyBase_OfferedInformationNodeText>
+  <ProblemHackerHackedAllyBaseOption_AskForInformation>Ask for information about the hacker</ProblemHackerHackedAllyBaseOption_AskForInformation>
+  <ProblemHackerHackedAllyBase_AskedForInformationNodeTitle>Ask for information title</ProblemHackerHackedAllyBase_AskedForInformationNodeTitle>
+  <ProblemHackerHackedAllyBase_AskedForInformationNodeText>Ask for information text</ProblemHackerHackedAllyBase_AskedForInformationNodeText>
+
+  <ProblemHackerInvestigateHackingLetterText>{0} has investigated the hacking, earning valuable insight towards the development of countermeasures.</ProblemHackerInvestigateHackingLetterText>
+  <ProblemHackerInvestigateHackingLetterTitle>Investigation Successful</ProblemHackerInvestigateHackingLetterTitle>
+
+  <PH_WCA_CallLabel>Answer faint message</PH_WCA_CallLabel>
+  <PH_WCA_LetterTitle>Faint Message</PH_WCA_LetterTitle>
+  <PH_WCA_LetterText>A faint communication is inbound on the comms console</PH_WCA_LetterText>
+  <PH_WCA_RootTitle>Faint, barely discernable message</PH_WCA_RootTitle>
+  <PH_WCA_RootText0>URGENT WARNING! This is {0} to all surrounding settlements. An individual named {1} has succeeded in hacking our systems using local radio signals, turning our defenses against ourselves! We are searching the area for them, but request any assistance that can be provided! Urgent warning!</PH_WCA_RootText0>
+  <PH_WCA_RootText1>Our communications systems are damaged and cannot be used reliably. An individual named {1} has succeeded in hacking our systems using local radio signals, we urge you to disable your turrets if possible! We repeat, an individual named {1} has succeeded in hacking our systems using local radio signals, we urge you to disable turrets if possible</PH_WCA_RootText1> 
+  <PH_WCA_RootText2>{0}TWO{1}TWO{0}TWO{1}</PH_WCA_RootText2>
+  <PH_WCA_RootText3>{0}THREE{1}THREE{0}THREE{1}</PH_WCA_RootText3>
+  <PH_WCA_Root_RespondOption>Attempt to respond in contact</PH_WCA_Root_RespondOption>
+  <PH_WCA_Root_ConcernedOption>Close console with concern</PH_WCA_Root_ConcernedOption>
+  <PH_WCA_Root_IgnoreOption>Was probably nothing</PH_WCA_Root_IgnoreOption>
+  <PH_WCA_Respond_Title>Response</PH_WCA_Respond_Title>
+  <PH_WCA_Respond_Text>Response Response</PH_WCA_Respond_Text>
+  <PH_WCA_Respond_ConcernedOption>Close console with concern</PH_WCA_Respond_ConcernedOption>
+
+  <PH_HackedAllyFC_ParentText>As another matter, we have lost contact with our base {0}, and was wondering if you had heard anything?</PH_HackedAllyFC_ParentText>
+  <PH_HackedAllyFC_ParentOption>Advise {0} that you have heard nothing from {1}</PH_HackedAllyFC_ParentOption>
+  <PH_hackedAllyFC_RootTitle>Title</PH_hackedAllyFC_RootTitle>
+
+</LanguageData>

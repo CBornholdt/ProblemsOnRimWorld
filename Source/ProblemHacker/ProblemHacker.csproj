@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10FD81B9-1350-4C91-B8B9-8FA4B415432C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ProblemHacker</RootNamespace>
+    <AssemblyName>ProblemHacker</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assemblies</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assemblies</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\usr\local\lib\dotnet\0Harmony.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StorytellerComp_ProblemHelper.cs" />
+    <Compile Include="Harmony_ProblemHacking_Patch.cs" />
+    <Compile Include="ProblemWorker_Hacker.cs" />
+    <Compile Include="StorytellerCompProperties_Problem.cs" />
+    <Compile Include="HackerExtraordinaire.cs" />
+    <Compile Include="CompHacked.cs" />
+    <Compile Include="ResearchModHackingCountermeasures.cs" />
+    <Compile Include="RemoteHackerComp.cs" />
+    <Compile Include="WorldObjectCompProperties_RemoteHacker.cs" />
+    <Compile Include="GenStep_RemoteHacker.cs" />
+    <Compile Include="SymbolResolver_HackerRoom.cs" />
+    <Compile Include="FindExt.cs" />
+    <Compile Include="InteractiveDialog.cs" />
+    <Compile Include="DynamicCommManager\DynamicCommManager.cs" />
+    <Compile Include="DynamicCommManager\DynamicCommManager_Patches.cs" />
+    <Compile Include="DynamicComponentManager\DynamicComponentManager.cs" />
+    <Compile Include="Jobs\JobDriver_DisableHacking.cs" />
+    <Compile Include="Jobs\JobDriver_InvestigateHacking.cs" />
+    <Compile Include="Jobs\JobDriver_TraceHackingSignal.cs" />
+    <Compile Include="Jobs\WorkGiver_DisableHacking.cs" />
+    <Compile Include="Jobs\WorkGiver_InvestigateHacking.cs" />
+    <Compile Include="Jobs\WorkGiver_TraceHackingSignal.cs" />
+    <Compile Include="DynamicComponentManager\DynamicThingComp.cs" />
+    <Compile Include="ResearchTaskManager\ResearchTaskManager.cs" />
+    <Compile Include="ResearchTaskManager\ResearchTaskManager_Patches.cs" />
+    <Compile Include="Communications\ExtortionCommunication.cs" />
+    <Compile Include="Communications\ContactHackedAllyBase.cs" />
+    <Compile Include="Communications\ContactHackedAllyBase_Dialogs.cs" />
+    <Compile Include="Communications\ExtortionCommunication_Dialogs.cs" />
+    <Compile Include="DynamicCommManager\Communication.cs" />
+    <Compile Include="ProblemManager\ProblemWorker.cs" />
+    <Compile Include="ProblemManager\ProblemUtility.cs" />
+    <Compile Include="ProblemManager\ProblemManager.cs" />
+    <Compile Include="ProblemManager\StorytellerComp_Problem.cs" />
+    <Compile Include="DynamicCommManager\NotificationLetter.cs" />
+    <Compile Include="Communications\WeakContactAttempt.cs" />
+    <Compile Include="DynamicCommManager\FactionCommunication.cs" />
+    <Compile Include="Communications\HackedAllyFactionCommunication.cs" />
+    <Compile Include="Jobs\DynamicTagDefExtension.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="DynamicCommManager\" />
+    <Folder Include="DynamicComponentManager\" />
+    <Folder Include="Jobs\" />
+    <Folder Include="ResearchTaskManager\" />
+    <Folder Include="Communications\" />
+    <Folder Include="ProblemManager\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Defs\IncidentDefs\problemhacker_incidents.xml">
+      <Link>Defs\IncidentDefs\problemhacker_incidents.xml</Link>
+    </None>
+    <None Include="..\..\Defs\JobDefs\problemhacker_jobs.xml">
+      <Link>Defs\JobDefs\problemhacker_jobs.xml</Link>
+    </None>
+    <None Include="..\..\Defs\Misc\notification_LetterDefs.xml">
+      <Link>Defs\Misc\notification_LetterDefs.xml</Link>
+    </None>
+    <None Include="..\..\Defs\ResearchProjectDefs\problemhacker_researchprojects.xml">
+      <Link>Defs\ResearchProjectDefs\problemhacker_researchprojects.xml</Link>
+    </None>
+    <None Include="..\..\Defs\ResearchProjectDefs\problemhacker_researchtabs.xml">
+      <Link>Defs\ResearchProjectDefs\problemhacker_researchtabs.xml</Link>
+    </None>
+    <None Include="..\..\Defs\RuleDefs\problemhacker_symbolresolver_hackerroom.xml">
+      <Link>Defs\RuleDefs\problemhacker_symbolresolver_hackerroom.xml</Link>
+    </None>
+    <None Include="..\..\Defs\SiteDefs\problemhacker_coresite.xml">
+      <Link>Defs\SiteDefs\problemhacker_coresite.xml</Link>
+    </None>
+    <None Include="..\..\Defs\SiteDefs\problemhacker_hackerRoom_part.xml">
+      <Link>Defs\SiteDefs\problemhacker_hackerRoom_part.xml</Link>
+    </None>
+    <None Include="..\..\Defs\WorkGiverDefs\problemhacker_workgivers.xml">
+      <Link>Defs\WorkGiverDefs\problemhacker_workgivers.xml</Link>
+    </None>
+  </ItemGroup>
+</Project>

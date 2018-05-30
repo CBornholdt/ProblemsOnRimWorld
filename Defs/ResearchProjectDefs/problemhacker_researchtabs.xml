@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<ResearchTabDef>
+		<defName>InformationSecurity</defName>
+		<label>Information Security</label>
+	</ResearchTabDef>
+</Defs>

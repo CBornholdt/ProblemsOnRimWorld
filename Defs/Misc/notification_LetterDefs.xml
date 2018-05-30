@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Letter meaning is the same as what's documented in MessageTypeDef.xml -->
+  
+  <LetterDef Name="NotificationLetterBase">
+    <defName>NotificationLetterBase</defName>
+    <letterClass>ProblemHacker.NotificationLetter</letterClass>
+  </LetterDef>
+
+  <LetterDef ParentName="NotificationLetterBase">
+    <defName>NotificationThreatBig</defName>
+    <color>(204, 115, 115)</color>
+    <flashColor>(255, 85, 85)</flashColor>
+    <flashInterval>6</flashInterval>
+    <bounce>true</bounce>
+    <arriveSound>LetterArriveBadUrgentBig</arriveSound>
+    <pauseIfPauseOnUrgentLetter>true</pauseIfPauseOnUrgentLetter>
+  </LetterDef>
+
+  <LetterDef ParentName="NotificationLetterBase">
+    <defName>NotificationThreatSmall</defName>
+    <color>(204, 155, 125)</color>
+    <flashColor>(255, 155, 95)</flashColor>
+    <flashInterval>16</flashInterval>
+    <bounce>true</bounce>
+    <arriveSound>LetterArriveBadUrgent</arriveSound>
+  </LetterDef>
+
+  <LetterDef ParentName="NotificationLetterBase">
+    <defName>NotificationNegativeEvent</defName>
+    <color>(204, 196, 135)</color>
+    <flashColor>(210, 198, 106)</flashColor>
+    <flashInterval>40</flashInterval>
+    <arriveSound>LetterArriveBadUrgentSmall</arriveSound>
+  </LetterDef>
+
+  <LetterDef ParentName="NotificationLetterBase">
+    <defName>NotificationNeutralEvent</defName>
+    <color>(175, 176, 185)</color>
+    <flashColor>(160, 170, 180)</flashColor>
+    <flashInterval>90</flashInterval>
+    <arriveSound>LetterArrive</arriveSound>
+  </LetterDef>
+
+  <LetterDef ParentName="NotificationLetterBase">
+    <defName>NotificationPositiveEvent</defName>
+    <color>(120, 176, 216)</color>
+    <flashColor>(106, 179, 231)</flashColor>
+    <flashInterval>90</flashInterval>
+    <arriveSound>LetterArriveGood</arriveSound>
+  </LetterDef>
+
+</Defs>

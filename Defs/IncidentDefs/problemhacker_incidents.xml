@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <IncidentDef>
+    <defName>ProblemHacker</defName>
+    <label>problem - hacker hacks hackable turret</label>
+    <targetTypes>
+      <li>MapPlayerHome</li>
+    </targetTypes>
+    <workerClass>ProblemHacker.ProblemWorker_Hacker</workerClass>
+    <letterLabel>Problem Hacker</letterLabel>
+    <baseChance>2</baseChance>
+    <tags>
+    	<li>Problem</li>
+    	<li>Hacking</li>
+    	<li>Research</li>
+    </tags>
+    <category>ThreatBig</category>
+    <minRefireDays>30</minRefireDays>
+    <pointsScaleable>false</pointsScaleable>
+  </IncidentDef>
+</Defs>

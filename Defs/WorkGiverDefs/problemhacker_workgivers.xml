@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>ProblemHackerTracing</defName>
+    <label>PH Trace Hacking Signal</label>
+    <giverClass>ProblemHacker.WorkGiver_TraceHackingSignal</giverClass>
+    <workType>Research</workType>
+    <priorityInType>1</priorityInType>
+    <verb>trace hacking signal</verb>
+    <gerund>tracing hacking signal</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
+    <modExtensions>
+      <li Class="ProblemHacker.DynamicTag"/>
+    </modExtensions>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>ProblemHackerDisabling</defName>
+    <label>PH Disable Hacking</label>
+    <giverClass>ProblemHacker.WorkGiver_DisableHacking</giverClass>
+    <workType>Research</workType>
+    <priorityInType>1</priorityInType>
+    <verb>disable hacking on</verb>
+    <gerund>disabling hacking on</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
+    <modExtensions>
+      <li Class="ProblemHacker.DynamicTag"/>
+    </modExtensions>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>ProblemHackerInvestigating</defName>
+    <label>PH Investigate Hacking</label>
+    <giverClass>ProblemHacker.WorkGiver_InvestigateHacking</giverClass>
+    <workType>Research</workType>
+    <priorityInType>1</priorityInType>
+    <verb>investigate hacking on</verb>
+    <gerund>investigating hacking on</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
+    <modExtensions>
+      <li Class="ProblemHacker.DynamicTag"/>
+    </modExtensions>
+  </WorkGiverDef>
+</Defs>

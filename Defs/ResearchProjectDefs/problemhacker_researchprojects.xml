@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>HackingCountermeasures</defName>
+    <label>hacking countemeasures</label>
+    <tab>InformationSecurity</tab>
+    <description>Create new countermeasures against current hacking.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchMods>
+      <li Class="ProblemHacker.ResearchTaskMod"/>
+    </researchMods>
+    <tags>
+      <li>Hacking</li>
+      <li>Locked</li>
+    </tags>
+    <researchViewX>1</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+
+   <ResearchProjectDef>
+    <defName>DisruptHacking</defName>
+    <label>disrupt hacking</label>
+    <tab>InformationSecurity</tab>
+    <description>Attempt to disrupt hacking</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchMods>
+      <li Class="ProblemHacker.ResearchTaskMod"/>
+    </researchMods>
+    <tags>
+      <li>Hacking</li>
+      <li>Locked</li>
+    </tags>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+</Defs>
